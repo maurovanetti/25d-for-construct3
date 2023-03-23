@@ -1,0 +1,21 @@
+﻿{
+	"": {
+		"conditions": [
+		],
+		"actions": [
+			{
+				"id": "set-locked",
+				"scriptName": "SetLocked",
+				"params": [
+					{
+						"id": "enabled",
+						"type": "combo",
+						"items": ["on", "off"]
+					}
+				]
+			}
+		],
+		"expressions": [
+		]
+	}
+}

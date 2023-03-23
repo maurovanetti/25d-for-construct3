@@ -1,0 +1,50 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for MyCustomBehavior.",
+	"text": {
+		"behaviors": {
+			"maurovanetti_twodotfived": {
+				"name": "2•5D",
+				"description": "2.5D perspective, setting the Z elevation based on the object's vertical position on screen.",
+				"help-url": "https://maurovanetti.itch.io/25d4c3",
+				"properties": {
+					"locked": {
+						"name": "Locked",
+						"desc": "If the vertical position of the object on the screen cannot change, it can be locked so that its Z elevation can be computed only once (a small performance benefit)."
+					},
+					"image-point": {
+						"name": "Image point",
+						"desc": "ID or name of the image point to use as a reference for the 2.5D perspective."
+					},					
+					"delta-z": {
+						"name": "Max Z variation",
+						"desc": "Object at the screen's bottom will get this Z elevation, objects in the middle will get 0, and objects at the top will get this value but negative."
+					}
+				},
+				"aceCategories": {
+				},
+				"conditions": {
+				},
+				"actions": {
+					"set-locked": {
+						"list-name": "Set Locked",
+						"display-text": "{my} Set Locked flag to {0}",
+						"description": "When locked, the Z elevation for this object instance is not updated anymore.",
+						"params": {
+							"enabled":{
+								"name": "Locked",
+								"desc": "Locked: Z elevation is constant. Unlocked: Z elevation is updated every tick depending on its Y position on the screen.",
+								"items": {
+									"on": "On",
+									"off": "Off"
+								}
+							}
+						}
+					}
+				},
+				"expressions": {
+				}
+			}
+		}
+	}
+}

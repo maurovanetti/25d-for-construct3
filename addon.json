@@ -1,0 +1,31 @@
+﻿{
+	"is-c3-addon": true,
+	"type": "behavior",
+	"name": "2•5D",
+	"id": "maurovanetti_TwoDotFiveD",
+	"version": "1.0.0.0",
+	"author": "Mauro Vanetti",
+	"website": "https://maurovanetti.itch.io",
+	"documentation": "https://maurovanetti.itch.io/25d4c3",
+	"description": "2.5D perspective behavior for Construct 3, setting the Z elevation based on the object's vertical position on screen.",
+	"editor-scripts": [
+						"behavior.js",
+						"type.js",
+						"instance.js"
+					],
+	"file-list": [
+		"c3runtime/behavior.js",
+		"c3runtime/type.js",
+		"c3runtime/instance.js",
+		"c3runtime/conditions.js",
+		"c3runtime/actions.js",
+		"c3runtime/expressions.js",
+		"lang/en-US.json",
+		"aces.json",
+		"addon.json",
+		"icon.svg",
+		"instance.js",
+		"behavior.js",
+		"type.js"
+	]
+}
