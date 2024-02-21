@@ -2,7 +2,7 @@
 
 This is a simple behavior addon for the 2D-oriented game engine [Construct 3](https://construct.net/) created by Mauro Vanetti.
 
-It introduces a new Construct 3 behavior for a very common requirement: handling the Z elevation of sprites in games with an angled top-down point of view, sometimes confusingly called 2.D games.
+It introduces a new Construct 3 behavior for a very common requirement: handling the Z elevation of sprites in games with an angled top-down point of view, sometimes confusingly called 2.5D games.
 
 Sprites in such games can move in front or behind each other and this has to be adjusted dynamically. Attach the 2•5D behavior to all objects involved and they are arranged automatically.
 
